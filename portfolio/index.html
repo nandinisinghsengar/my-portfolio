@@ -1,0 +1,177 @@
+<html>
+
+<head>
+    <title>Nandini's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(104, 0, 88);
+
+        }
+        nav div {
+            color:white;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(236, 146, 43);
+        }
+
+        nav ul li a:hover {
+            color: rgb(238, 229, 236);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            margin: 50px 0;
+            align-items: center;
+        }
+
+        .firstsection div {
+            width: 100%;
+
+        }
+        .f1 h1{font-size: 90px;
+           line-height: 1;
+           text-align: center;
+        }
+        .f1 h1 span{
+                color: blueviolet;}
+
+        .leftsection {
+            width: 34px;
+            font-size: 1.5rem;
+            margin: 30px 0;
+        }
+
+        .leftsection button {
+            background-color: rgb(232, 60, 60);
+            border:none;
+            color: aliceblue;
+            padding: 12px 16px;
+            font-size: 16px;
+            cursor: pointer;
+        
+        }
+          .leftsection button:hover{
+            background-color: rgb(104, 0, 88);
+          }
+
+          .rightsection img {
+            width: 80%;
+            height: 350;
+          }
+        
+        
+
+        .purple {
+            color: rgb(238, 49, 210);
+        }
+
+        footer {
+            background-color:rgb(104, 0, 88);
+            color: white;
+            height: 123px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Nandini's Portfolio
+            </div>
+            <div class="left">
+                <ul>
+                    <li> <a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/skill.html">Skills</a></li>
+                    <li><a href="/edu.html">Education</a></li>
+                    <li><a href="/work.html">Projects</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main><div class="f1"><h1>My <span>Portfolio</span></h1></div>
+
+        <section class="firstsection">
+            
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Nandini Singh Sengar.</span>
+                <div> I am a Computer Science Student.</div>
+                <div>and I am looking forward to my first Experience</div><br>
+                <a href="cv.jpeg">
+               <button type="button">Resume</button></a>
+                <button onclick="msg()">hire Me!</button>
+                <script>
+                    function msg(){
+                        alert("you are hired.");
+                    }
+                </script>
+            </div>
+            <div class="rightsection">
+                <img src="guy_at_desk1.png">
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Nandini's Portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <h2> Thankyou for visiting my site</h2>
+            </div>
+            <div class="text-center">
+                <h2> www.Nandini'sPortfolio.com |
+                    All rights reserved</h2>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
